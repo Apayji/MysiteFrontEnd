@@ -64,20 +64,15 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="services">
-        <h1>See what the hype is about</h1>
-        <div className="services__container">
-          <div className="services__card">
-            <h2>Experience Bliss</h2>
-            <p>AI Powered technology</p>
-            <button>Get Started</button>
-          </div>
-          <div className="services__card">
-            <h2>Are you Ready?</h2>
-            <p>Take the leap</p>
-            <button>Get Started</button>
-          </div>
+      <hr></hr>
+      <div className="sechero" >
+        <div className="sechero-text">
+          <h4>
+          В нашей стране существуют экологические проблемы, которые не решаются по сей день. Но, они не решаются только потому что, эти экопроблемы не популяризированы среди народа и власти. EcoKaz покажет вам практически все экологические проблемы которые происходят в Казахстане и вы можете учавствовать в решений этих проблем и помочь резидентам РК.
+          </h4>
+          
         </div>
+    
       </div>
     </div>
   );

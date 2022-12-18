@@ -23,8 +23,13 @@ export default function Navbar() {
             </a>
           </li>
           <li className="navbar__item">
+            <a href="/rules" className="navbar__links">
+              Rules
+            </a>
+          </li>
+          <li className="navbar__item">
             <a href="/comments" className="navbar__links">
-              Comments
+              Problems
             </a>
           </li>
           <li className="navbar__btn">

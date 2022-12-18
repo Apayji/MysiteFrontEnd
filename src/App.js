@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Rules from "./pages/Rules";
 import Comments from "./pages/Comments";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" exact element={<Home />} />
+          <Route path="/rules" exact element={<Rules />} />
           <Route path="/comments" exact element={<Comments />} />
         </Routes>
       </BrowserRouter>
@@ -19,5 +21,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
