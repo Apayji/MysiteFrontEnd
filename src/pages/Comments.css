@@ -1,0 +1,24 @@
+.comment-input {
+  height: 36px;
+  padding: 6px;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  background: #ececec;
+  margin-bottom: 24px;
+}
+
+.comment-text-input:focus,
+.comment-input:focus {
+  outline: none;
+}
+
+.comment-text-input {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background: #ececec;
+  margin-bottom: 24px;
+  width: 100%;
+}
