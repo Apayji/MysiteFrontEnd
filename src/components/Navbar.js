@@ -4,7 +4,7 @@ export default function Navbar() {
       <div className="navbar__container">
         <a href="/" id="navbar__logo" style={{ marginLeft: -100 }}>
           <img
-            src="images/Save the earth.png"
+            src="Save the earth.png"
             alt="Logo"
             width="80"
             height="60"
